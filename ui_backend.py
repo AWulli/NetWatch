@@ -14,7 +14,7 @@ class UiBackend(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.ui_filepath: Path = Path(__file__).parent / "/netwatch_main.ui"
+        self.ui_filepath: Path = Path(__file__).parent / "netwatch_main.ui"
         
         self.setWindowTitle("NET_WATCH")
         self.resize(900,800)
