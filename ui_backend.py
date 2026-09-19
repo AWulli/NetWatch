@@ -6,9 +6,9 @@ from PySide6.QtWidgets import QMainWindow, QPushButton, QPlainTextEdit, QTableVi
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtGui import QStandardItem, QStandardItemModel
 
-from classes.firewall_status import Firewall
-from classes.portscanner import PortScanner
-from classes.portscanner import SocketData
+from firewall_status import Firewall
+from portscanner import PortScanner
+from portscanner import SocketData
 
 class UiBackend(QMainWindow):
     def __init__(self):
