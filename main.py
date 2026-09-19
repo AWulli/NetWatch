@@ -1,8 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication
-
-from classes.ui_backend import UiBackend
-
+from ui_backend import UiBackend
 if __name__ == "__main__":
     app = QApplication()
     ui = UiBackend()
